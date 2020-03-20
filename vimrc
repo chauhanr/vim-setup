@@ -21,6 +21,7 @@ map <C-b> :GoBuild<CR>
 map <C-r> :GoRun<CR> 
 map <C-f> :GoTestFunc<CR> 
 map <C-a> :GoAlternate<CR> 
+map <C-u> :Ack
 
 nnoremap <leader>a :cclose<CR>
 nnoremap <leader>p :pc<CR> 

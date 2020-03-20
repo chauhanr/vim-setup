@@ -39,4 +39,9 @@ pluign to allow use to prepare golang code, compile, test, build and run code.
 
 [Install Vim-go](https://github.com/fatih/vim-go#install) 
 
+## Ack search 
+This utility allows for search for strings in multiple files in a project from a vim normal mode
+with `:Ack` 
 
+[Install ack](https://github.com/mileszs/ack.vim)  - Remember that we need to intsall grep-ack util
+on the linux box. 
