@@ -45,3 +45,13 @@ with `:Ack`
 
 [Install ack](https://github.com/mileszs/ack.vim)  - Remember that we need to intsall grep-ack util
 on the linux box. 
+
+## monokai color scheme 
+
+```
+$ mkdir -p ~/.vim/colors
+$ cd ~/.vim/colors 
+
+curl -G https://raw.githubusercontent.com/lsdr/monokai/master/colors/monokai.vim -o monokai.vim
+```
+

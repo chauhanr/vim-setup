@@ -45,7 +45,8 @@ working with tags, words, paragraphs
 * f,F -find the next occurance of the character
     * so we can put a verb before the f to get next occurance like dfw will delete the line until the next occurance of w 
 * t,T - find the next occurance of character and place the cursor before the character
-    * so we can put a verb before the t. 'ctL' will delete the content till, but not including,the next occurance of L 
+    * so we can put a verb before the t. 'dtL' will delete the content till, but not including,the next occurance of L 
+    * in order to copy content to the next occurance of the letter 'M' use `ytM` 
 * / - search up to the next match. 
 
 ## Insert Operations in Vim 
