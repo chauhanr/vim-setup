@@ -55,3 +55,10 @@ $ cd ~/.vim/colors
 curl -G https://raw.githubusercontent.com/lsdr/monokai/master/colors/monokai.vim -o monokai.vim
 ```
 
+```
+# adding the following lines to the vimrc
+
+set termguicolors 
+colorscheme monokai
+```
+
