@@ -7,8 +7,6 @@ set ttyfast
 set showcmd 
 
 set noswapfile 
-set t_Co=256 
-colorscheme molokai
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
@@ -17,6 +15,8 @@ abbr _sh #!/bin/bash
 call pathogen#infect()
 syntax on 
 filetype plugin indent on 
+set termguicolors
+colorscheme molokai
 
 
 let g:go_fmt_command = "goimports"
