@@ -3,6 +3,8 @@ set textwidth=100
 set relativenumber 
 set encoding=UTF-8
 set number 
+set ttyfast 
+set showcmd 
 
 set noswapfile 
 set t_Co=256 
@@ -32,3 +34,8 @@ nnoremap <leader>a :cclose<CR>
 nnoremap <leader>p :pc<CR> 
 nnoremap <leader>m :cprevious<CR>
 nnoremap <leader>n :cnext<CR> 
+
+
+" Remap jk to escape 
+inoremap jk <Esc>  
+
